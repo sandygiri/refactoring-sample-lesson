@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: stripe
+    database: analytics
+    schema: jaffle_prod
+    tables:
+      - name: stripe_payments
